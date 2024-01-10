@@ -19,8 +19,9 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+  projectId: "guhnmq",
   e2e: {
-    baseUrl: 'https://restful-booker.herokuapp.com/',
+	  baseUrl: 'https://restful-booker.herokuapp.com/',
     specPattern: "**/*.feature",
     setupNodeEvents,
   },
