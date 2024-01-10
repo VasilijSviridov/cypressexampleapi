@@ -37,6 +37,10 @@ b. Running from the `Test Runner`
 
 - run the command ```npx cypress open``` and click on the required feature files
 
+c. Docker mode (docker app needs to be installed before using command lines)
+- run the command ```docker build -t cypress-tests .``` to create image/container.
+- run the command ```docker run -it cypress-tests``` to initiate tests on docker container.
+
 ### BDD Structure
   Cypress - e2e
 
@@ -44,7 +48,7 @@ b. Running from the `Test Runner`
 
 - Pages - Page object classes (AuthPage.js and BookingPage.js) are created to encapsulate endpoint-specific logic.
 
-- Stepdefinitions - Implementation of step definitions to link BDD scenarios with actual test logic.
+- StepDefinitions - Implementation of step definitions to link BDD scenarios with actual test logic.
 
 ### Contributing
 Feel free to contribute to this project by submitting issues or pull requests.
