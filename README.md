@@ -31,6 +31,7 @@ Cypress implementation with Cucumber and Page Object Model.
 a. Headless mode
 
 - run the command ```npx cypress run```
+- run with dashboards ```npx cypress run --record --key 7bc36823-a3f5-4df0-85c5-a031ff04653e```
 
 b. Running from the `Test Runner`
 
