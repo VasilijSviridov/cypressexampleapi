@@ -1,0 +1,24 @@
+{
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/stepDefinitions/**/*.{js,ts}"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "axios": "^1.6.5",
+    "chai": "^5.0.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "cypress": "^13.6.2"
+  },
+  "name": "cypress-pom-bdd-cucumber",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vas",
+  "license": "ISC",
+  "description": "Cypress example with BDD POM and API"
+}
