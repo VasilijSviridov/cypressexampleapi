@@ -1,4 +1,4 @@
-Feature: Auth Endpoint
+Feature: Auth Endpoint Herokuapp
 
   Scenario: Create a new auth token
     Given the API base URL is "https://restful-booker.herokuapp.com"
