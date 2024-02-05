@@ -1,7 +1,7 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor" 
 
 Given('the API base URL is {string}', function (baseUrl) {
-    apiUrl = baseUrl;
+    let apiUrl = baseUrl;
 });
 
 Then('the response status code should be {int}', (statusCode) => {
