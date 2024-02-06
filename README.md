@@ -41,6 +41,9 @@ c. Docker mode (docker app needs to be installed before using command lines)
 - run the command ```docker build -t cypress-tests .``` to create image/container.
 - run the command ```docker run -it cypress-tests``` to initiate tests on docker container.
 
+d. Github actions
+- navigate to github actions or create a new PR.
+
 ### BDD Structure
   Cypress - e2e
 
