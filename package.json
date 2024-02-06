@@ -16,7 +16,7 @@
   "version": "1.0.0",
   "main": "cypress.config.js",
   "scripts": {
-    "start" : "npx cypress run --record --key 7bc36823-a3f5-4df0-85c5-a031ff04653e"
+    "start" : "npx cypress run"
   },
   "author": "Vas",
   "license": "ISC",
