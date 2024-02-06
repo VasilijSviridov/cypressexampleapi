@@ -1,4 +1,4 @@
-### Cypress Demo Framework for Web & REST API Testing
+### Cypress Demo Framework for Web & REST API Testing.
 
 Cypress implementation with Cucumber and Page Object Model.
 
