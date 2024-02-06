@@ -18,7 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build" : "echo build",
-    "start" : "npx cypress run --headed"
+    "start" : "npx cypress run --record --key 7bc36823-a3f5-4df0-85c5-a031ff04653e"
   },
   "author": "Vas",
   "license": "ISC",
